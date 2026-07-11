@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSCPE Journey - Kirby David</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Shared CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Page-specific CSS -->
+    <link rel="stylesheet" href="css/cpe.css">
+    
+    <!-- Cursor & Icon -->
+    <link rel="stylesheet" href="https://cdn.cursors-4u.net/cursors/animated/chrome-wait-a4eed247-32.css">
+    <link rel="icon" type="image/png" href="assets/icon.png">
+</head>
+<body>
+    <!-- Simplified Nav -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/logo-white.png" alt="Logo">
+        </div>
+        <div class="nav-links">
+            <a href="index.html#home">HOME</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="cpe-layout">
+            <!-- HOMEPAGE Section - BSCPE Journey -->
+            <div class="cpe-hero" data-aos="fade-down">
+                <div class="cpe-hero-bg"></div>
+                <div class="cpe-hero-content">
+                    <span class="cpe-hero-label">MY BSCPE JOURNEY</span>
+                    <h1>Computer Engineering</h1>
+                    <p class="cpe-hero-subtitle">Bachelor of Science in Computer Engineering • 2022 – 2026</p>
+                    <p class="cpe-hero-desc">A collection of my projects, seminars, and creations throughout my academic journey in Computer Engineering.</p>
+                </div>
+            </div>
+
+            <!-- Divider 01 - CERTIFICATES & SEMINARS -->
+            <div class="cpe-divider-header" data-aos="fade-right">
+                <span class="cpe-number">01</span>
+                <span class="cpe-line"></span>
+                <span class="cpe-label">CERTIFICATES & SEMINARS</span>
+            </div>
+
+            <!-- Single Certificates Gallery -->
+            <div class="cpe-gallery" data-aos="fade-up">
+                <div class="gallery-group expanded">
+                    <div class="gallery-group-header" onclick="toggleGallery(this)">
+                        <span class="group-number">01</span>
+                        <h3 class="group-title">All Certificates</h3>
+                        <span class="group-count">18 images</span>
+                        <div class="gallery-nav">
+                            <button class="gallery-nav-btn prev" onclick="event.stopPropagation(); scrollGallery(this, -1)">‹</button>
+                            <button class="gallery-nav-btn next" onclick="event.stopPropagation(); scrollGallery(this, 1)">›</button>
+                        </div>
+                        <span class="gallery-expand-btn">▼</span>
+                    </div>
+                    <div class="gallery-grid-wrapper">
+                        <div class="gallery-scroll-container">
+                            <div class="gallery-scroll-track">
+                                <img src="assets/cpe/certificates/Picture1.png" alt="Certificate 1">
+                                <img src="assets/cpe/certificates/Picture2.png" alt="Certificate 2">
+                                <img src="assets/cpe/certificates/Picture3.png" alt="Certificate 3">
+                                <img src="assets/cpe/certificates/Picture4.png" alt="Certificate 4">
+                                <img src="assets/cpe/certificates/Picture5.png" alt="Certificate 5">
+                                <img src="assets/cpe/certificates/Picture6.png" alt="Certificate 6">
+                                <img src="assets/cpe/certificates/Picture7.png" alt="Certificate 7">
+                                <img src="assets/cpe/certificates/Picture8.png" alt="Certificate 8">
+                                <img src="assets/cpe/certificates/Picture9.png" alt="Certificate 9">
+                                <img src="assets/cpe/certificates/Picture10.png" alt="Certificate 10">
+                                <img src="assets/cpe/certificates/Picture11.png" alt="Certificate 11">
+                                <img src="assets/cpe/certificates/Picture12.png" alt="Certificate 12">
+                                <img src="assets/cpe/certificates/Picture13.png" alt="Certificate 13">
+                                <img src="assets/cpe/certificates/Picture14.png" alt="Certificate 14">
+                                <img src="assets/cpe/certificates/Picture15.png" alt="Certificate 15">
+                                <img src="assets/cpe/certificates/Picture16.png" alt="Certificate 16">
+                                <img src="assets/cpe/certificates/Picture17.png" alt="Certificate 17">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider 02 - EMBEDDED SYSTEMS -->
+            <div class="cpe-divider-header" data-aos="fade-right">
+                <span class="cpe-number">02</span>
+                <span class="cpe-line"></span>
+                <span class="cpe-label">EMBEDDED SYSTEMS</span>
+            </div>
+
+            <!-- Embedded Systems - Alternating Layout -->
+            <div class="cpe-features" data-aos="fade-up">
+                <!-- Feature 1: Image Left -->
+                <div class="feature-row image-left">
+                    <div class="feature-image">
+                        <img src="assets/cpe/embedded/relay.jpg" alt="4-Channel Relay Module">
+                    </div>
+                    <div class="feature-content">
+                        <h3>4-Channel Relay Module</h3>
+                        <p>An essential component for controlling high-power devices with low-power microcontroller signals. This 4-channel relay module allows for independent control of up to four devices, making it ideal for home automation, industrial control, and IoT projects.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 2: Image Right -->
+                <div class="feature-row image-right">
+                    <div class="feature-image">
+                        <img src="assets/cpe/embedded/powersupply.jpg" alt="Power Supply Unit">
+                    </div>
+                    <div class="feature-content">
+                        <h3>Power Supply Unit</h3>
+                        <p>A reliable power supply is the backbone of any electronic system. This custom-built power supply unit delivers stable voltage and current, ensuring that all connected components operate within their specified parameters for optimal performance and longevity.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 3: Image Left -->
+                <div class="feature-row image-left">
+                    <div class="feature-image">
+                        <img src="assets/cpe/embedded/airqualitymonitoring.jpg" alt="Air Quality Monitoring">
+                    </div>
+                    <div class="feature-content">
+                        <h3>Air Quality Monitoring</h3>
+                        <p>An environmental monitoring system that tracks air quality parameters including particulate matter, volatile organic compounds, and gas concentrations. This project demonstrates the integration of multiple sensors and data visualization for real-time environmental awareness.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider 03 - WEBSITES -->
+            <div class="cpe-divider-header" data-aos="fade-right">
+                <span class="cpe-number">03</span>
+                <span class="cpe-line"></span>
+                <span class="cpe-label">WEBSITES</span>
+            </div>
+
+            <!-- Websites - Alternating Layout -->
+            <div class="cpe-features" data-aos="fade-up">
+                <!-- Website 1: Image Left -->
+                <div class="feature-row image-left">
+                    <div class="feature-image">
+                        <img src="assets/cpe/websites/brainbout.png" alt="BrainBout">
+                    </div>
+                    <div class="feature-content">
+                        <h3>BrainBout</h3>
+                        <p>A reviewer website for DHVSU (now known as Pampanga State University) students. Features include modules, quizzes, login system, scores tracking, and a leaderboard to foster healthy academic competition among students.</p>
+                    </div>
+                </div>
+
+                <!-- Website 2: Image Right -->
+                <div class="feature-row image-right">
+                    <div class="feature-image">
+                        <img src="assets/cpe/websites/musika.png" alt="MUSIKA">
+                    </div>
+                    <div class="feature-content">
+                        <h3>MUSIKA</h3>
+                        <p>A Node.js server application that integrates with the Spotify and YouTube APIs. This music search website allows users to discover and explore music across both platforms, providing a unified search experience for music enthusiasts.</p>
+                    </div>
+                </div>
+
+                <!-- Website 3: Image Left -->
+                <div class="feature-row image-left">
+                    <div class="feature-image">
+                        <img src="assets/cpe/websites/eleganza.png" alt="Eleganza">
+                    </div>
+                    <div class="feature-content">
+                        <h3>Eleganza</h3>
+                        <p>An e-commerce platform dedicated to elegant clothing and fashion. Features include product catalog, shopping cart, user authentication, order management, and a seamless checkout experience for online shoppers.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider 04 - FIGMA DESIGNS -->
+            <div class="cpe-divider-header" data-aos="fade-right">
+                <span class="cpe-number">04</span>
+                <span class="cpe-line"></span>
+                <span class="cpe-label">FIGMA DESIGNS</span>
+            </div>
+
+            <!-- Figma Designs - Alternating Layout -->
+            <div class="cpe-features" data-aos="fade-up">
+                <!-- Figma 1: Image Left -->
+                <div class="feature-row image-left">
+                    <div class="feature-image">
+                        <img src="assets/cpe/figma/easygro.png" alt="EasyGro">
+                    </div>
+                    <div class="feature-content">
+                        <h3>EasyGro</h3>
+                        <p>Welcome to EasyGro! A simple plant care app with reminders and expert tips to help your plants thrive. Designed with a clean, intuitive interface that makes plant care accessible to everyone, from beginners to experienced gardeners.</p>
+                        <a href="https://www.figma.com/design/33Upi86kkGxqhGxGKvIqVk/ELECT-FINALS?t=dyIlWwHKkxsUkJRA-1" target="_blank" rel="noopener noreferrer" class="project-link">View Design →</a>
+                    </div>
+                </div>
+
+                <!-- Figma 2: Image Right -->
+                <div class="feature-row image-right">
+                    <div class="feature-image">
+                        <img src="assets/cpe/figma/aromavault.png" alt="AromaVault">
+                    </div>
+                    <div class="feature-content">
+                        <h3>AromaVault</h3>
+                        <p>AromaVault is an e-commerce perfume online shopping platform featuring a curated collection of luxury fragrances. With elegant UI design, seamless navigation, and a sophisticated shopping experience, it captures the essence of premium perfume retail.</p>
+                        <a href="https://www.figma.com/design/4R2a1hiyFTL2JN0wEWXycY/ELECT-1?t=dyIlWwHKkxsUkJRA-1" target="_blank" rel="noopener noreferrer" class="project-link">View Design →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider 05 - 3D DESIGNS -->
+            <div class="cpe-divider-header" data-aos="fade-right">
+                <span class="cpe-number">05</span>
+                <span class="cpe-line"></span>
+                <span class="cpe-label">3D DESIGNS</span>
+            </div>
+
+            <!-- 3D Designs Gallery -->
+            <div class="cpe-gallery" data-aos="fade-up">
+                <div class="gallery-group expanded">
+                    <div class="gallery-group-header" onclick="toggleGallery(this)">
+                        <span class="group-number">01</span>
+                        <h3 class="group-title">Project Enclosures</h3>
+                        <span class="group-count">3 images</span>
+                        <div class="gallery-nav">
+                            <button class="gallery-nav-btn prev" onclick="event.stopPropagation(); scrollGallery(this, -1)">‹</button>
+                            <button class="gallery-nav-btn next" onclick="event.stopPropagation(); scrollGallery(this, 1)">›</button>
+                        </div>
+                        <span class="gallery-expand-btn">▼</span>
+                    </div>
+                    <div class="gallery-grid-wrapper">
+                        <div class="gallery-scroll-container">
+                            <div class="gallery-scroll-track gallery-scroll-3d">
+                                <img src="assets/cpe/3d/3d1.png" alt="3D Design 1">
+                                <img src="assets/cpe/3d/3d2.png" alt="3D Design 2">
+                                <img src="assets/cpe/3d/3d3.png" alt="3D Design 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider 06 - SOFTWARE TOOLKIT -->
+            <div class="cpe-divider-header" data-aos="fade-right">
+                <span class="cpe-number">06</span>
+                <span class="cpe-line"></span>
+                <span class="cpe-label">SOFTWARE TOOLKIT</span>
+            </div>
+
+            <!-- Software Toolkit Grid -->
+            <div class="cpe-software-section" data-aos="fade-up">
+                <div class="cpe-software-grid">
+                    <div class="software-card" data-aos="zoom-in" data-aos-delay="0">
+                        <img src="assets/11.png" alt="Visual Studio">
+                        <h3>Visual Studio</h3>
+                        <p>Code Development</p>
+                    </div>
+                    <div class="software-card" data-aos="zoom-in" data-aos-delay="50">
+                        <img src="assets/aicode.png" alt="AI Code" class="aicode-white">
+                        <h3>AI Code</h3>
+                        <p>AI-Assisted Development</p>
+                    </div>
+                    <div class="software-card" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="assets/1.png" alt="Adobe Photoshop">
+                        <h3>Adobe Photoshop</h3>
+                        <p>Photo Editing & Design</p>
+                    </div>
+                    <div class="software-card" data-aos="zoom-in" data-aos-delay="150">
+                        <img src="assets/10.png" alt="Tinkercad">
+                        <h3>Tinkercad</h3>
+                        <p>3D Modeling & Circuits</p>
+                    </div>
+                    <div class="software-card" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="assets/5.png" alt="Figma">
+                        <h3>Figma</h3>
+                        <p>UI/UX Design</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider 07 - DELIVERABLES -->
+            <div class="cpe-divider-header" data-aos="fade-right">
+                <span class="cpe-number">07</span>
+                <span class="cpe-line"></span>
+                <span class="cpe-label">DELIVERABLES</span>
+            </div>
+
+            <!-- Key Deliverables -->
+            <div class="cpe-deliverables" data-aos="fade-up">
+                <div class="deliverable-item">
+                    <span class="deliverable-number">01</span>
+                    <div class="deliverable-content">
+                        <h3 class="deliverable-title" data-text="Embedded Systems Projects">Embedded Systems Projects</h3>
+                        <p>4-channel relay, power supply, air quality monitoring systems</p>
+                    </div>
+                </div>
+                <div class="deliverable-item">
+                    <span class="deliverable-number">02</span>
+                    <div class="deliverable-content">
+                        <h3 class="deliverable-title" data-text="Web Development">Web Development</h3>
+                        <p>BrainBout, MUSIKA, Eleganza – full-stack websites and applications</p>
+                    </div>
+                </div>
+                <div class="deliverable-item">
+                    <span class="deliverable-number">03</span>
+                    <div class="deliverable-content">
+                        <h3 class="deliverable-title" data-text="Figma Designs">Figma Designs</h3>
+                        <p>EasyGro (plant care app) and AromaVault (perfume e-commerce)</p>
+                    </div>
+                </div>
+                <div class="deliverable-item">
+                    <span class="deliverable-number">04</span>
+                    <div class="deliverable-content">
+                        <h3 class="deliverable-title" data-text="3D Modeling">3D Modeling</h3>
+                        <p>Project enclosures and mechanical designs using Tinkercad</p>
+                    </div>
+                </div>
+                <div class="deliverable-item">
+                    <span class="deliverable-number">05</span>
+                    <div class="deliverable-content">
+                        <h3 class="deliverable-title" data-text="Seminar Certificates">Seminar Certificates</h3>
+                        <p>Embedded Systems, Network Security, AI & IoT seminars</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Back to Projects -->
+            <div class="cpe-back-row" data-aos="fade-up">
+                <a href="index.html#projects" class="back-link">← Back to Projects</a>
+            </div>
+        </section>
+
+        <!-- Final Section -->
+        <section class="final-section">
+            <div class="final-container">
+                <div class="final-bottom" data-aos="fade-up">
+                    <div class="final-logo">
+                        <img src="assets/logo-white.png" alt="Logo">
+                    </div>
+                    <div class="final-copyright">
+                        <span>© 2026 KIRBY DAVID. ALL RIGHTS RESERVED.</span>
+                    </div>
+                </div>
+                
+                <div class="final-top" data-aos="fade-up" data-aos-delay="100">
+                    <button class="back-to-top" onclick="scrollToTop()">
+                        <span class="back-arrow">↑</span>
+                        <span class="back-text">BACK TO TOP</span>
+                    </button>
+                </div>
+                
+                <div class="final-disclaimer" data-aos="fade-up" data-aos-delay="200">
+                    <p>This website was vibe coded with ChatGPT, Perplexity and DeepSeekAI</p>
+                    <p>Inspired by Mauricio Juba's 2026 Portfolio</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+        <button class="lightbox-prev" onclick="changeImage(-1)">‹</button>
+        <button class="lightbox-next" onclick="changeImage(1)">›</button>
+        <img class="lightbox-image" id="lightboxImage" src="" alt="">
+        <div class="lightbox-counter" id="lightboxCounter"></div>
+    </div>
+
+    <footer class="system-footer">
+        <div class="footer-left">
+            <span id="cursor-position">X: 000 Y: 000</span>
+            <span id="page-progress">0.00</span>
+        </div>
+        <div class="footer-center">
+            <span id="current-section">BSCPE Journey</span>
+            <span id="clock">00:00:00</span>
+        </div>
+        <div class="footer-right">
+            <span>THEME: #7D4DFF</span>
+        </div>
+    </footer>
+    
+    <!-- Shared JS -->
+    <script src="js/script.js"></script>
+    
+    <!-- Page-specific JS -->
+    <script src="js/cpe.js"></script>
+</body>
+</html>

@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>KD</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.cursors-4u.net/cursors/animated/chrome-wait-a4eed247-32.css">
+    <link rel="icon" type="image/png" href="assets/icon.png">
+</head>
+<body class="loading">
+    <div class="loader-container">
+        <div class="loader-text">
+            <span id="progress">0</span>
+        </div>
+        <div class="loading-bar">
+            <div class="loading-progress" id="loading-progress"></div>
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/logo-white.png" alt="Logo">
+        </div>
+        <div class="nav-links">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT ME</a>
+            <a href="#contact">CONTACT ME</a>
+            <a href="#projects">PROJECTS</a>
+        </div>
+    </nav>
+    <main id="website">
+        <section id="home" class="hero">
+            <div class="hero-image">
+                <img src="assets/me.png" alt="Kirby David">
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-name kirby">
+                    <span>K</span>
+                    <span>i</span>
+                    <span>r</span>
+                    <span>b</span>
+                    <span>y</span>
+                </h1>
+                <h1 class="hero-name david">
+                    <span>D</span>
+                    <span>A</span>
+                    <span>V</span>
+                    <span>I</span>
+                    <span>D</span>
+                </h1>
+                <p class="hero-role">
+                    Computer Engineer • Actively Looking for Work Opportunities
+                </p>
+            </div>
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <span class="indicator-label">SCROLL</span>
+                <svg class="scroll-arrow" viewBox="0 0 24 24" width="24" height="24">
+                    <polygon points="12,18 4,8 20,8" fill="#7d4dff"/>
+                </svg>
+            </div>
+        </section>
+
+       <section id="about" class="about">
+            <div class="about-header" data-aos="fade-right">
+                <div class="about-number">02</div>
+                <div class="about-line"></div>
+                <h2>ABOUT ME</h2>
+            </div>
+            <div class="about-scroll">
+                <div class="scroll-text" data-aos="fade-right">
+                    <span>ABOUT</span> ME&nbsp;&nbsp;
+                    <span>ABOUT</span> ME&nbsp;&nbsp;
+                    <span>ABOUT</span> ME&nbsp;&nbsp;
+                    <span>ABOUT</span> ME&nbsp;&nbsp;
+                </div>
+            </div>
+            <div class="about-layout">
+                <div class="about-photo" data-aos="fade-right">
+                    <img src="assets/about.png" alt="Kirby David">
+                    <div class="about-name-container" style="text-align: right;">
+                        <h2 class="about-name kirby-about">
+                            <span class="about-birth-date">KIRBY DAVID || 08-25-04</span>
+                        </h2>
+                    </div>
+                    <div class="about-quote" data-aos="fade-up" data-aos-delay="200">
+                        <p>I enjoy working across technology and creative fields, using my skills in engineering, design, and problem-solving to bring ideas into reality.</p>
+                    </div>
+                    <div class="download-cv-container" data-aos="fade-up" data-aos-delay="300">
+                        <a href="assets/Kirby_David_CV.pdf" download class="download-cv-btn">
+                            <span class="download-text">Download CV</span>
+                            <span class="download-arrow">↓</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <h3 class="about-title" data-aos="fade-left">Work Experience</h3>
+                    <div class="experience-divider" data-aos="fade-left" data-aos-delay="50"></div>
+                    <div class="experience-list">
+                        <div class="experience-item" data-aos="fade-right">
+                            <div class="experience-header">
+                                <span class="experience-role" data-text="IT Support Intern">IT Support Intern</span>
+                                <span class="experience-dates">[Feb 2026 – May 2026]</span>
+                                <button class="expand-btn" onclick="toggleExpand(this)">
+                                    <img src="assets/arrow.png" alt="Expand" class="arrow-icon">
+                                </button>
+                            </div>
+                            <div class="experience-company">DPWH Region III</div>
+                            <div class="expand-wrapper">
+                                <div class="expand-content">
+                                    <p>During my internship at DPWH Region III, I gained hands-on experience in IT support, troubleshooting hardware and software issues, and assisting with network maintenance. I also helped with documentation and technical support for staff members.</p>
+                                    <a href="journal.html" class="expand-link">Click me to see my journal →</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-divider" data-aos="fade-left" data-aos-delay="100"></div>
+                        <div class="experience-item" data-aos="fade-left">
+                            <div class="experience-header">
+                                <span class="experience-role" data-text="Digital Asset Designer">Digital Asset Designer</span>
+                                <span class="experience-dates">[Sept 2023 – Feb 2026]</span>
+                                <button class="expand-btn" onclick="toggleExpand(this)">
+                                    <img src="assets/arrow.png" alt="Expand" class="arrow-icon">
+                                </button>
+                            </div>
+                            <div class="experience-company">Minecraft Multiplayer Server</div>
+                            <div class="expand-wrapper">
+                                <div class="expand-content">
+                                    <p>As a Digital Asset Designer for a Minecraft multiplayer server, I created custom textures, 3D models, and UI designs. I collaborated with developers to implement assets and ensure visual consistency across the server's content.</p>
+                                    <a href="digital.html" class="expand-link">Click me to see my portfolio →</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-divider" data-aos="fade-right" data-aos-delay="100"></div>
+                        <div class="experience-item" data-aos="fade-right">
+                            <div class="experience-header">
+                                <span class="experience-role" data-text="Junior Graphic Artist">Junior Graphic Artist</span>
+                                <span class="experience-dates">[Feb 2022 – May 2022]</span>
+                                <button class="expand-btn" onclick="toggleExpand(this)">
+                                    <img src="assets/arrow.png" alt="Expand" class="arrow-icon">
+                                </button>
+                            </div>
+                            <div class="experience-company">MSM Color Drops Printing Service</div>
+                            <div class="expand-wrapper">
+                                <div class="expand-content">
+                                    <p>At MSM Color Drops Printing Service, I worked on graphic design projects including logos, business cards, banners, and marketing materials. I learned about print production processes and client communication.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="about-title" style="margin-top:30px;" data-aos="fade-left" data-aos-delay="150">Education</h3>
+                    <div class="experience-divider" data-aos="fade-left" data-aos-delay="200"></div>
+                    <div class="experience-list">
+                        <div class="experience-item" data-aos="fade-right">
+                            <div class="experience-header">
+                                <span class="experience-role" data-text="BS in Computer Engineering">BS in Computer Engineering</span>
+                                <span class="experience-dates">[2022 – Aug 2026]</span>
+                                <button class="expand-btn" onclick="toggleExpand(this)">
+                                    <img src="assets/arrow.png" alt="Expand" class="arrow-icon">
+                                </button>
+                            </div>
+                            <div class="experience-company">Pampanga State University</div>
+                            <div class="expand-wrapper">
+                                <div class="expand-content">
+                                    <p>Currently pursuing my Bachelor's degree in Computer Engineering at Pampanga State University. Focus areas include embedded systems, network infrastructure, and software development. Expected to graduate August 2026.</p>
+                                    <a href="cpe.html" class="expand-link">Click me to see my projects and certifications →</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-divider" data-aos="fade-left" data-aos-delay="100"></div>
+                        <div class="experience-item" data-aos="fade-left">
+                            <div class="experience-header">
+                                <span class="experience-role" data-text="Computer System Servicing">Computer System Servicing</span>
+                                <span class="experience-dates">[2020 – 2022]</span>
+                                <button class="expand-btn" onclick="toggleExpand(this)">
+                                    <img src="assets/arrow.png" alt="Expand" class="arrow-icon">
+                                </button>
+                            </div>
+                            <div class="experience-company">Sta. Lucia Integrated School</div>
+                            <div class="expand-wrapper">
+                                <div class="expand-content">
+                                    <p>Completed Senior High School with a focus on Computer System Servicing. Learned computer hardware assembly, troubleshooting, networking, and system maintenance.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-divider" data-aos="fade-right" data-aos-delay="100"></div>
+                        <div class="experience-item" data-aos="fade-right">
+                            <div class="experience-header">
+                                <span class="experience-role" data-text="Special Program for the Arts">Special Program for the Arts</span>
+                                <span class="experience-dates">[2016 – 2020]</span>
+                                <button class="expand-btn" onclick="toggleExpand(this)">
+                                    <img src="assets/arrow.png" alt="Expand" class="arrow-icon">
+                                </button>
+                            </div>
+                            <div class="experience-company">Pampanga High School</div>
+                            <div class="expand-wrapper">
+                                <div class="expand-content">
+                                    <p>Participated in the Special Program for the Arts during Junior High School, where I developed creative skills in visual arts, design, and creative thinking. This foundation continues to influence my approach to digital design and user experience.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Software Toolkit Section -->
+        <section id="software" class="software-section">
+            <h2 data-aos="fade-up">Software Toolkit</h2>
+            <div class="software-grid">
+                <div class="software-card" data-aos="zoom-in" data-aos-delay="0">
+                    <img src="assets/0.png" alt="Corel Draw">
+                    <h3>Corel Draw</h3>
+                    <p>Vector Graphics & Design</p>
+                </div>
+                <div class="software-card" data-aos="zoom-in" data-aos-delay="50">
+                    <img src="assets/1.png" alt="Adobe Photoshop">
+                    <h3>Adobe Photoshop</h3>
+                    <p>Photo Editing & Design</p>
+                </div>
+                <div class="software-card" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="assets/2.png" alt="Adobe Illustrator">
+                    <h3>Adobe Illustrator</h3>
+                    <p>Vector Art & Illustration</p>
+                </div>
+                <div class="software-card" data-aos="zoom-in" data-aos-delay="150">
+                    <img src="assets/3.png" alt="Adobe After Effects">
+                    <h3>Adobe After Effects</h3>
+                    <p>Motion Graphics & VFX</p>
+                </div>
+                <div class="software-card" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="assets/4.png" alt="CapCut">
+                    <h3>CapCut</h3>
+                    <p>Video Editing</p>
+                </div>
+                <div class="software-card" data-aos="zoom-in" data-aos-delay="250">
+                    <img src="assets/5.png" alt="Figma">
+                    <h3>Figma</h3>
+                    <p>UI/UX Design</p>
+                </div>
+                <div class="software-card" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="assets/6.png" alt="Canva">
+                    <h3>Canva</h3>
+                    <p>Graphic Design</p>
+                </div>
+                <div class="software-card" data-aos="zoom-in" data-aos-delay="350">
+                    <img src="assets/7.png" alt="MS Word">
+                    <h3>MS Word</h3>
+                    <p>Document Creation</p>
+                </div>
+                <div class="software-card" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="assets/8.png" alt="MS Excel">
+                    <h3>MS Excel</h3>
+                    <p>Spreadsheets & Data</p>
+                </div>
+                <div class="software-card" data-aos="zoom-in" data-aos-delay="450">
+                    <img src="assets/9.png" alt="MS PowerPoint">
+                    <h3>MS PowerPoint</h3>
+                    <p>Presentations</p>
+                </div>
+                <div class="software-card" data-aos="zoom-in" data-aos-delay="500">
+                    <img src="assets/10.png" alt="Tinkercad">
+                    <h3>Tinkercad</h3>
+                    <p>3D Modeling</p>
+                </div>
+                <div class="software-card" data-aos="zoom-in" data-aos-delay="550">
+                    <img src="assets/11.png" alt="Visual Studio">
+                    <h3>Visual Studio</h3>
+                    <p>Code Development</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Foundations Section -->
+        <section class="core-foundations-wrapper">
+            <div class="core-foundations">
+                <h2 class="core-foundations-header" data-aos="fade-up">Core Foundations</h2>
+                <div class="foundations-grid">
+                    <div class="foundation-card" data-aos="fade-up" data-aos-delay="0">
+                        <span class="foundation-number">01</span>
+                        <div class="foundation-content">
+                            <h3 class="foundation-title" data-text="Engineering & Technology">Engineering & Technology</h3>
+                            <p class="foundation-desc">Building a strong foundation in computer systems, electronics, programming, and emerging technologies to develop practical and reliable solutions.</p>
+                        </div>
+                    </div>
+                    <div class="foundation-card" data-aos="fade-up" data-aos-delay="100">
+                        <span class="foundation-number">02</span>
+                        <div class="foundation-content">
+                            <h3 class="foundation-title" data-text="Creative Design">Creative Design</h3>
+                            <p class="foundation-desc">Combining visual creativity, user experience, and design principles to create interfaces, digital assets, and experiences that are both functional and engaging.</p>
+                        </div>
+                    </div>
+                    <div class="foundation-card" data-aos="fade-up" data-aos-delay="200">
+                        <span class="foundation-number">03</span>
+                        <div class="foundation-content">
+                            <h3 class="foundation-title" data-text="Problem Solving & Innovation">Problem Solving & Innovation</h3>
+                            <p class="foundation-desc">Approaching challenges through research, experimentation, and critical thinking to transform ideas into meaningful solutions.</p>
+                        </div>
+                    </div>
+                    <div class="foundation-card" data-aos="fade-up" data-aos-delay="300">
+                        <span class="foundation-number">04</span>
+                        <div class="foundation-content">
+                            <h3 class="foundation-title" data-text="Continuous Learning & Adaptability">Continuous Learning & Adaptability</h3>
+                            <p class="foundation-desc">Expanding knowledge across different fields and adapting to new tools, technologies, and creative processes to stay versatile and capable.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Competencies Section - Vertical List -->
+        <section class="competencies-wrapper">
+            <div class="competencies">
+                <h2 class="competencies-header" data-aos="fade-up">Core Competencies</h2>
+                <div class="competencies-list">
+                    <div class="competency-item" data-aos="fade-right" data-aos-delay="0">
+                        <span class="competency-number">01</span>
+                        <span class="competency-title" data-text="Technology & Digital Solutions">Technology & Digital Solutions</span>
+                    </div>
+                    <div class="competency-divider" data-aos="fade-left" data-aos-delay="50"></div>
+                    <div class="competency-item" data-aos="fade-left" data-aos-delay="100">
+                        <span class="competency-number">02</span>
+                        <span class="competency-title" data-text="Creative Design & Visual Communication">Creative Design & Visual Communication</span>
+                    </div>
+                    <div class="competency-divider" data-aos="fade-right" data-aos-delay="150"></div>
+                    <div class="competency-item" data-aos="fade-right" data-aos-delay="200">
+                        <span class="competency-number">03</span>
+                        <span class="competency-title" data-text="User Experience & Interface Design">User Experience & Interface Design</span>
+                    </div>
+                    <div class="competency-divider" data-aos="fade-left" data-aos-delay="250"></div>
+                    <div class="competency-item" data-aos="fade-left" data-aos-delay="300">
+                        <span class="competency-number">04</span>
+                        <span class="competency-title" data-text="Artificial Intelligence & Emerging Technologies">Artificial Intelligence & Emerging Technologies</span>
+                    </div>
+                    <div class="competency-divider" data-aos="fade-right" data-aos-delay="350"></div>
+                    <div class="competency-item" data-aos="fade-right" data-aos-delay="400">
+                        <span class="competency-number">05</span>
+                        <span class="competency-title" data-text="Multimedia Production & Content Creation">Multimedia Production & Content Creation</span>
+                    </div>
+                    <div class="competency-divider" data-aos="fade-left" data-aos-delay="450"></div>
+                    <div class="competency-item" data-aos="fade-left" data-aos-delay="500">
+                        <span class="competency-number">06</span>
+                        <span class="competency-title" data-text="Research, Innovation & Problem Solving">Research, Innovation & Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-footer" data-aos="fade-right">
+                <div class="about-number">02</div>
+                <div class="about-line"></div>
+                <h2>ABOUT ME</h2>
+            </div>
+        </section>
+
+        <!-- LET'S TALK Section -->
+        <section id="lets-talk" class="lets-talk">
+            <div class="talk-scroll-wrapper">
+                <div class="talk-scroll" id="talkScroll">
+                    <span class="talk-black">LET'S</span>
+                    <span class="talk-outline">TALK</span>
+                    <span class="talk-black">LET'S</span>
+                    <span class="talk-outline">TALK</span>
+                    <span class="talk-black">LET'S</span>
+                    <span class="talk-outline">TALK</span>
+                    <span class="talk-black">LET'S</span>
+                    <span class="talk-outline">TALK</span>
+                    <span class="talk-black">LET'S</span>
+                    <span class="talk-outline">TALK</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="contact-header" data-aos="fade-right">
+                <div class="contact-number">03</div>
+                <div class="contact-line"></div>
+                <h2>CONTACT ME</h2>
+            </div>
+            <div class="contact-layout">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3 class="contact-title">Let's Connect</h3>
+                    <div class="contact-divider"></div>
+                    <div class="contact-list">
+                        <div class="contact-item" data-aos="fade-right" data-aos-delay="0">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:kirbydavid025@gmail.com" class="contact-value" data-text="kirbydavid025@gmail.com">kirbydavid025@gmail.com</a>
+                            <button class="contact-btn">
+                                <img src="assets/top-right.png" alt="Open" class="contact-arrow">
+                            </button>
+                        </div>
+                        <div class="contact-divider" data-aos="fade-left" data-aos-delay="50"></div>
+                        <div class="contact-item" data-aos="fade-right" data-aos-delay="100">
+                            <span class="contact-label">Facebook</span>
+                            <a href="https://www.facebook.com/share/1P8DADqRHh/" target="_blank" class="contact-value" data-text="https://www.facebook.com/share/1P8DADqRHh/">https://www.facebook.com/share/1P8DADqRHh/</a>
+                            <button class="contact-btn" onclick="window.open('https://www.facebook.com/share/1P8DADqRHh/', '_blank')">
+                                <img src="assets/top-right.png" alt="Open" class="contact-arrow">
+                            </button>
+                        </div>
+                        <div class="contact-divider" data-aos="fade-left" data-aos-delay="150"></div>
+                        <div class="contact-item" data-aos="fade-right" data-aos-delay="200">
+                            <span class="contact-label">Contact No.</span>
+                            <a href="#" class="contact-value" data-text="(+63)949-922-2962">(+63)949-922-2962</a>
+                            <button class="contact-btn" onclick="window.open('#', '_blank')">
+                                <img src="assets/top-right.png" alt="Open" class="contact-arrow">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-message" data-aos="fade-left" data-aos-delay="200">
+                    <p>I'm always open to new opportunities, collaborations, or just a friendly chat. Feel free to reach out!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEND ME A MESSAGE Section -->
+        <section id="send-message" class="send-message">
+            <div class="send-scroll-wrapper">
+                <div class="send-scroll" id="sendScroll">
+                    <span class="send-black">SEND</span>
+                    <span class="send-outline">ME</span>
+                    <span class="send-black">A</span>
+                    <span class="send-outline">MESSAGE</span>
+                    <span class="send-black">SEND</span>
+                    <span class="send-outline">ME</span>
+                    <span class="send-black">A</span>
+                    <span class="send-outline">MESSAGE</span>
+                    <span class="send-black">SEND</span>
+                    <span class="send-outline">ME</span>
+                    <span class="send-black">A</span>
+                    <span class="send-outline">MESSAGE</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Message Form Section -->
+        <section class="message-form-section">
+            <div class="message-form-container">
+                <h2 class="message-form-title" data-aos="fade-up">Send a Message</h2>
+                
+                <form id="contact-form" class="message-form" novalidate>
+                    <div class="form-group" data-aos="fade-up" data-aos-delay="0">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        <div class="field-error" id="nameError"></div>
+                    </div>
+                    
+                    <div class="form-group" data-aos="fade-up" data-aos-delay="100">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        <div class="field-error" id="emailError"></div>
+                    </div>
+                    
+                    <div class="form-group" data-aos="fade-up" data-aos-delay="200">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+                        <div class="field-error" id="messageError"></div>
+                    </div>
+                    
+                    <button type="submit" class="form-submit-btn" id="submitBtn" data-aos="fade-up" data-aos-delay="300">
+                        <span class="btn-text">Send →</span>
+                        <span class="btn-loader" style="display:none;"></span>
+                    </button>
+                </form>
+                
+                <div class="form-footer-note" data-aos="fade-up" data-aos-delay="400">
+                    <span>write directly to </span>
+                    <a href="mailto:kirbydavid025@gmail.com" class="form-email-link">kirbydavid025@gmail.com</a>
+                </div>
+            </div>
+            <div class="contact-footer" data-aos="fade-right">
+                    <div class="contact-number">03</div>
+                    <div class="contact-line"></div>
+                    <h2>CONTACT ME</h2>
+            </div>
+        </section>
+
+        <!-- Custom Alert Container -->
+        <div id="customAlert" class="custom-alert">
+            <div class="custom-alert-content">
+                <span class="custom-alert-icon" id="alertIcon">✓</span>
+                <span class="custom-alert-message" id="alertMessage">Message sent successfully!</span>
+                <button class="custom-alert-close" onclick="closeCustomAlert()">×</button>
+            </div>
+        </div>
+        
+        <section id="projects" class="projects">
+            <div class="projects-header" data-aos="fade-right">
+                <div class="projects-number">04</div>
+                <div class="projects-line"></div>
+                <h2>PROJECTS</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="project-image-wrapper">
+                        <img src="assets/dpwh.png" alt="DPWH Internship" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Internship Journal</h3>
+                        <p class="project-desc">Documentation and reflections from my IT Support internship at DPWH Region III.</p>
+                        <a href="journal.html" class="project-link">View Journal →</a>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image-wrapper">
+                        <div class="project-img-stack">
+                            <img src="assets/photoshop.png" alt="Photoshop" class="project-img">
+                            <img src="assets/illustrator.png" alt="Illustrator" class="project-img">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Graphic Design Projects</h3>
+                        <p class="project-desc">Logos, branding, and marketing materials created using Adobe Photoshop and Illustrator.</p>
+                        <a href="graphics.html" class="project-link">View Portfolio →</a>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image-wrapper">
+                        <img src="assets/minecraft.png" alt="Minecraft" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Digital Asset Design</h3>
+                        <p class="project-desc">Custom textures, HUD, and GUI designs for a Minecraft multiplayer server.</p>
+                        <a href="digital.html" class="project-link">View Portfolio →</a>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image-wrapper">
+                        <img src="assets/excel.png" alt="MS Excel" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">MS Excel Projects</h3>
+                        <p class="project-desc">Spreadsheets, data analysis, and automation projects using Microsoft Excel.</p>
+                        <a href="https://drive.google.com/drive/folders/1fnZmKlPj8S65344rm15dyC1w0F1NOej0?usp=drive_link" target="_blank" class="project-link">View Projects →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-footer" data-aos="fade-right">
+                <div class="projects-number">04</div>
+                <div class="projects-line"></div>
+                <h2>PROJECTS</h2>
+            </div>
+        </section>
+        
+        <!-- Final Section -->
+        <section class="final-section">
+            <div class="final-container">
+                <!-- Logo and Copyright at top -->
+                <div class="final-bottom" data-aos="fade-up">
+                    <div class="final-logo">
+                        <img src="assets/logo-white.png" alt="Logo">
+                    </div>
+                    <div class="final-copyright">
+                        <span>© 2026 KIRBY DAVID. ALL RIGHTS RESERVED.</span>
+                    </div>
+                </div>
+                
+                <!-- Back to Top Button at bottom -->
+                <div class="final-top" data-aos="fade-up" data-aos-delay="100">
+                    <button class="back-to-top" onclick="scrollToTop()">
+                        <span class="back-arrow">↑</span>
+                        <span class="back-text">BACK TO TOP</span>
+                    </button>
+                </div>
+                
+                <!-- Disclaimer -->
+                <div class="final-disclaimer" data-aos="fade-up" data-aos-delay="200">
+                    <p>This website was vibe coded with ChatGPT, Perplexity and DeepSeekAI</p>
+                    <p>Inspired by Mauricio Juba's 2026 Portfolio</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="system-footer">
+        <div class="footer-left">
+            <span id="cursor-position">X: 000 Y: 000</span>
+            <span id="page-progress">0.00</span>
+        </div>
+        <div class="footer-center">
+            <span id="current-section">01 Homepage</span>
+            <span id="clock">00:00:00</span>
+        </div>
+        <div class="footer-right">
+            <span>THEME: #7D4DFF</span>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
